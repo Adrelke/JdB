@@ -1,0 +1,31 @@
+h4 {
+  color: teal;
+}
+
+p, li {
+  font-family: Helvetica;
+}
+
+h3 {
+  color: FireBrick;
+  text-decoration: underline;
+  margin: 40px;
+}
+
+body {
+  background-color: lightgray;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/selga.png");
+  font-family: Georgia;
+}
+
+}
+.days li{
+  list-style: square;
+}
+.titre{
+  text-align: center;
+  background-image: url("http://falconscan.com/wp-content/uploads/2014/06/FS-banner-background.jpg");
+}
+.titre p {
+  font-size: 20px;
+}
