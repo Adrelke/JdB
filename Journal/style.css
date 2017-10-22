@@ -22,14 +22,39 @@ body {
 .days li{
   list-style: square;
 }
-.titre{
+
+header{
   text-align: center;
   background-image: url("http://falconscan.com/wp-content/uploads/2014/06/FS-banner-background.jpg");
+  width: 100%;
+  border: 1px solid black;
 }
+
 .titre p {
   font-size: 20px;
 }
 
-.lists {
-  display: inline;
+/* Navigation Lists */
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
+
+.units {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+  margin: 5px 5px;
+  border: 2px solid black;
+  padding-left: 3px;
+}
+
+.navigation .units ul li a {
+  color: black;
+}
+
+/* -------------- */
